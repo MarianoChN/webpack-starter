@@ -43,7 +43,8 @@ module.exports = {
 
 
     optimization: {},
-
+    
+    devServer: { watchFiles: ["src/index.html"], hot: true, },
 
     plugins: [
     
